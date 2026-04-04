@@ -1,0 +1,63 @@
+img {
+	max-width: 500px;
+	/* шоб трохи гарно виглядали кртинки не бийте по рукам будь ласка:) */
+}
+
+
+
+.link {
+	color: blue;
+}
+
+[class*="text"] {
+	color: green;
+}
+
+.article__title {
+	color: brown;
+}
+
+
+
+
+
+.purple {
+	color: purple;
+}
+
+.list__label {
+	color: chocolate;
+}
+
+
+
+/*
+тут просто відпрацьовка з пройденого матеріалу 
+.list__text {
+	color: green;
+}
+
+.list__content p {
+	color: purple;
+}
+.list__content .list__text {
+	color: purple;
+}
+	
+#top {
+	color: purple;
+	розумію шо в данному випадку прцювати воно не буде тому що треба підвязати цого наприклад до посилання а не header
+}
+
+li {
+	color: purple;
+} 
+
+
+	.list__content,
+ .list__text{
+	color: aquamarine;
+ }
+
+
+*/
