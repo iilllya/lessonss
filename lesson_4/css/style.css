@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@import url("fonts.css");
+
+.article {
+	font-family: "DM Sans", sans-serif;
+
+}
+
+
+.article__title {
+	color: #131313;
+	text-transform: capitalize;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: -1.25px;
+
+}
+
+.article__titlegreen {
+	color: #1AAF5B;
+}
+
+.article__text {
+	font-size: 20px;
+	text-align: left;
+	line-height: 1.4;
+	letter-spacing: 0.6px;
+	opacity: 0.6;
+}
+
+.article__text p {
+	/* щоб гарно виглядало */
+	max-width: 540px;
+}
+
+
+
+/* properties */
+
+
+.main__properties {}
+
+.property {
+	font-family: "DM Sans", sans-serif;
+}
+
+.property__item {}
+
+.font-size {}
+
+
+
+/* .font-size__10 */
+.font-size__10 {
+	font-size: 10px;
+}
+
+.font-size__16 {
+	font-size: 16px;
+}
+
+.font-size__20 {
+	font-size: 20px;
+}
+
+.font-size__45 {
+	font-size: 45px;
+}
+
+.font-size__100 {
+	font-size: 100px;
+	font-weight: 800;
+}
+
+
+/* .font-weight */
+.font-weight {
+
+	font-size: 24px;
+}
+
+.font-weight__100 {
+	font-weight: 100;
+}
+
+.font-weight__200 {
+	font-weight: 200;
+}
+
+.font-weight__300 {
+	font-weight: 300;
+}
+
+.font-weight__400 {
+	/* font-weight: 400; */
+}
+
+.font-weight__500 {
+	font-weight: 500;
+}
+
+.font-weight__600 {
+	font-weight: 600;
+}
+
+.font-weight__700 {
+	font-weight: 700;
+}
+
+.font-weight__800 {
+	font-weight: 800;
+
+}
+
+/* text-align */
+
+.property__item {}
+
+.text-align {}
+
+.text-align__left {
+	text-align: left;
+}
+
+.text-align__right {
+	text-align: right;
+}
+
+.text-align__center {
+	text-align: center;
+}
+
+.text-align__justify {
+	text-align: justify;
+
+}
+
+/* text-decoration */
+
+
+
+.text-decoration__overline {
+	text-decoration: overline;
+}
+
+.text-decoration__line-through {
+	text-decoration: line-through;
+	text-decoration-color: red;
+}
+
+.text-decoration__underline {
+	text-decoration: underline;
+}
+
+.text-decoration__styli-wavy {
+	text-decoration: underline;
+	text-decoration-color: yellowgreen;
+	text-decoration-style: wavy;
+	text-underline-offset: 5px;
+	text-decoration-thickness: 5px;
+}
+
+.text-decoration__styli-dashed {
+	text-decoration: underline;
+	text-decoration-color: #cd328a;
+	text-decoration-style: dashed;
+}
+
+.text-decoration__styli-dottet {
+	text-decoration: underline;
+	text-decoration-color: #130c98;
+	text-decoration-style: dotted;
+}
+
+.text-decoration__styli-double {
+	text-decoration: underline;
+	text-decoration-color: rgba(205, 53, 50, 0.574);
+	text-decoration-style: double;
+
+
+}
+
+.text-decoration__text-decoration-thickness {
+	text-decoration: line-through;
+	text-decoration-color: red;
+	text-decoration-thickness: 5px;
+}
+
+
+
+
+/* text-shadow */
+
+
+.text-shadow {
+	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+	color: rgb(38, 20, 20);
+}
+
+.text-shadow__shadow-right {
+	text-shadow: 7px 0px 4px rgb(98, 86, 50);
+
+}
+
+.text-shadow__shadow-left {
+	text-shadow: -7px 0px 4px rgb(98, 86, 50);
+}
+
+.text-shadow__shadow-double {
+
+	text-shadow: 15px 0px 4px rgb(98, 86, 50), -15px 0px 4px rgb(98, 86, 50);
+}
+
+.text-shadow__shadow-doubleup {
+	text-shadow: 0px 5px 4px rgb(98, 86, 50), 0px -5px 4px rgb(50, 98, 92);
+}
+
+/* text-transform */
+
+
+
+.text-transform__capitalize {
+	text-transform: capitalize;
+
+}
+
+.text-transform__uppercase {
+	text-transform: uppercase;
+}
+
+.text-transform__lowercase {
+	text-transform: lowercase;
+
+}
+
+/* line-height */
+
+.line-height {
+	max-width: 400px;
+	margin: 0 auto;
+	/* щоб краще показати як працюєline-height  */
+
+	text-align: center;
+}
+
+.line-height__positive {
+	line-height: 2;
+	color: red;
+}
+
+.line-height__negative {
+	color: green;
+	line-height: 0.4;
+}
+
+/* letter-spacing */
+
+
+.letter-spacing__item {
+	letter-spacing: 5px;
+
+}
+
+/* word-spacing */
+
+
+.word-spacing__item {
+	word-spacing: 20px;
+
+}
+
+/* word-spacing */
+
+
+.white-spac__item {
+
+	white-space: nowrap;
+}
+
+
+.navigation__item {
+	font-family: "InterDisplay";
+	color: #28980c;
+	text-align: center;
+	line-height: 2;
+	font-size: 30px;
+	font-weight: 600;
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 10px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
