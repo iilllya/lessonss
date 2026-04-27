@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+@import url("fonts.css");
+
+
+body {
+	color: aliceblue;
+	background-color: #1b222f;
+}
+
+.navigation__item {
+	color: #28980c;
+	text-align: center;
+	line-height: 2;
+	font-size: 30px;
+	font-weight: 600;
+	font-family: "DM Sans", sans-serif;
+}
+
+.navigation__item a {
+
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.navigation__item a:hover {
+	color: #43e61a;
+	text-decoration: underline;
+	text-decoration-color: rgb(139, 4, 4);
+	text-decoration-thickness: 2px;
+	text-underline-offset: 10px;
+}
+
+.navigation__item a:active {
+	color: #18a7ca;
+}
